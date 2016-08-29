@@ -1,0 +1,84 @@
+body{
+background-image: url("https://hd.unsplash.com/photo-1456694441711-af0ab2d64c96");
+background-size: cover;
+}
+.form{
+max-height: 800px;
+margin: 35px 400px 35px 140px;
+background: linear-gradient(-90deg, black, #0059b3);
+opacity: 0.8;
+color: white;
+border-radius: 16px;
+box-shadow: 0px 0px 15px black;
+float:left;
+}
+#title{
+	background: linear-gradient(-90deg, #0059b3, black);
+/*background-color: #0059b3;*/
+color: white;
+box-shadow: 0px 0px 10px black;
+height: 25px;
+padding: 0px 5px;
+border-radius: 3px;
+margin-top: -18px;
+}
+
+.inputdata{
+	margin: 0px 15px;
+}
+.inputdata input {
+height: 18px;
+margin-left: 7em;
+margin-top: 11px;
+width: 250px;
+box-shadow: 0px 0px 10px black;
+}
+.inputdata label{
+	position: absolute;
+	margin-top: 12px;
+	font-size: 16px;
+
+}
+.inputdata select {
+height: 20px;
+margin-left: 7em;
+margin-top: 11px;
+width: 250px;
+box-shadow: 0px 0px 10px black;
+}
+.inputdata label{
+	position: absolute;
+}
+.inputdata textarea {
+height: 20px;
+margin-left: 7em;
+margin-top: 5px;
+
+}
+.inputdata label{
+	position: absolute;
+	text-shadow: 0px 0px 10px black;
+}
+input[type="checkbox"]{
+	margin: 0px -102px 0px -22px;
+	height: 12px;
+	margin-top: 11px;
+box-shadow: 0px 0px 0px black;
+}
+input[type="radio"]{
+	margin: 0px -102px 0px -22px;
+	height: 12px;
+	margin-top: 11px;
+box-shadow: 0px 0px 0px black;
+}
+#Submit{
+	border-radius: 15px;
+	height: 21px;
+	font-size: 14px;
+	font-weight: bolder;
+	width: 150px;
+	margin: 0px 150px;
+}
+
+
+
